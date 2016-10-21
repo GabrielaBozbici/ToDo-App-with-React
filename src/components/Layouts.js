@@ -7,7 +7,7 @@ export default class Layout extends Component {
     this.state = {
       todos : [
 			{
-				text: "make yoga",
+				text: "Change from github!",
 				isCompleted: true,
 				id: 1
 			},
