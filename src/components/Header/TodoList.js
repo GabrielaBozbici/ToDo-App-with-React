@@ -8,7 +8,12 @@ export default class TodoList extends React.Component {
     return (
       <div>
       	{this.props.todos.map(function(todo){
-      		return <li key={todo.id}>{todo.text}</li>
+      		return (
+            <div key={todo.id}>
+              <li>{todo.text}</li>
+              <button>Delete</button>
+            </div>
+            )
       	})}
       </div>
     );
