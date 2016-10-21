@@ -10,11 +10,6 @@ export default class Layout extends Component {
 				text: "Change from github!",
 				isCompleted: true,
 				id: 1
-			},
-			{
-				text: "love cat",
-				isCompleted: false,
-				id: 2
 			}
 		]
     };
