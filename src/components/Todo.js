@@ -22,7 +22,7 @@ export default class Todo extends Component {
 	  	console.log(this)
 	    return ( 
 	    	<div>
-	    		<h1> To-Do List App</h1>
+	    		<h1> To-Do List App new title</h1>
 	    		<input type="text" onChange={this.handleChange.bind(this)} />
 	    		<button onClick={this.addToDo.bind(this)} >Add todo!</button>
 	    		<TodoList  todos={this.props.todos}/ >
